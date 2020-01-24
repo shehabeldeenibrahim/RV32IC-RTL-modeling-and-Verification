@@ -3,6 +3,8 @@
 Verilog RTL of a pipelined CPU that implements the RV32IC ISA. 
 All instructions implemented except of FENCE, FENCE.I. 
 Partial support for the CSR instructions and interrupts is implemented. 
+
+A.
 The CPU design reflects the following constraints:
 1. A single ported memory is used for both data and instructions
 This constraint introduces structural hazards that degrade the CPU performance and increase the effective CPI
