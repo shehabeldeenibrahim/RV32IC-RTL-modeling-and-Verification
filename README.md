@@ -17,6 +17,7 @@ and C1).
 2. A memory transaction is done in 2 phases. Address phase (one clock cycle) followed by a data phase (one or more
 clock cycles). The memory has a ready signal (output) that indicate the completion of the data phase.
 3. A dual ported memory is used for the register file.
+
 B. Verification framework that consists of functional tests, automatically generated pseudo-random tests as well as scripts to
 automate the testing process. RISC-V official compliance test suite was used.
 
